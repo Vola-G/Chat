@@ -1,21 +1,23 @@
 import React from 'react';
 import './App.css';
-import Header from './components/header'
-import UsersList from './containers/UsersList';
-import Messages from './containers/MessagesList';
-import SendMessage from './containers/SendMessage';
+import Header from "./components/header"
+import { MessagesList } from "./containers/MessagesList"
+import { AddMessage } from "./containers/AddMessage"
 
-function App() {
-  return (
-    <div className="App">
-      <Header />
-      <main className="App-main">
-        <UsersList />
-        <Messages />
-        <SendMessage />
-      </main>
-    </div>
-  );
+
+class App extends React.Component {
+  render() {
+    return (
+      <div className="App">
+        <Header />
+        <main className="App-main">
+          <MessagesList />
+          <AddMessage />
+        </main>
+      </div>
+    );
+  }
 }
+
 
 export default App;

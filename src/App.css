@@ -3,10 +3,6 @@
   padding: 0;
 }
 
-.App {
-  text-align: center;
-}
-
 body {
   background-color: #282c34;
 }
@@ -24,7 +20,7 @@ main {
   align-items: center;
   justify-content: center;
   font-size: calc(2px + 2vmin);
-  background-color: #191a1c;
+  background-color: #131823;
 }
 
 .header_title {
@@ -36,15 +32,13 @@ main {
   color: yellow;
 }
 
-.App-link {
-  color: #61dafb;
+.App-main {
+  display: flex;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.chat-container {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  height: 100%;
 }
