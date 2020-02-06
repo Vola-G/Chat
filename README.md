@@ -1,1 +1,1 @@
-# chat
+# chat (React + Redux)
