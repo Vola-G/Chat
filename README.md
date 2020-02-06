@@ -1,1 +1,1 @@
-# chat (React + Redux)
+# chat (React + Redux, Websocket)
